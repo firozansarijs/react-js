@@ -5,7 +5,6 @@ const Card = (props) => {
   console.log(props.company);
    
   return (
-    
       <div className="card">
 
         <div className="top">
@@ -22,13 +21,11 @@ const Card = (props) => {
             <h4>{props.t2}</h4>
           </div>
         </div>
-
         <div className="bottom">
           <div>
             <h2>{props.sallary}</h2>
             <p>{props.place}</p>
           </div>
-
           <button className="apply">Apply Now</button>
         </div>
 

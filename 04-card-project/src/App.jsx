@@ -89,8 +89,7 @@ console.log(jobOpenings);
        t1 = {elem.tag1}
        t2 = {elem.tag2} 
        sallary = {elem.pay}
-       place = {elem.location}/>
-       
+       place = {elem.location}/>  
      })};
    </div>
   );
