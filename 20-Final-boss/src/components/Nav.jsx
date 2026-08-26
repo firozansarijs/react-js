@@ -9,7 +9,7 @@ const Nav = () => {
     <div >
       <nav className="bg-black flex items-center justify-between whitespace-nowrap h-20 text-white">
       <h1 className=' px-7 py-5 font-bold text-3xl text-red-800 '>S Ì P D È R</h1>
-      <div   className="text-red-800 ml-100 text-100 | gap-15"  >
+      <div   className="text-red-800 ml-100 text-100 | gap-10"  >
       <Link
       className="relative inline-block
                after:content-['']

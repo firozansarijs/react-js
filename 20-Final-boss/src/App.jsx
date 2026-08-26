@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 const App = () => {
   return (
-    <div className='h-screen w-screen'>
+    <div className=''>
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
