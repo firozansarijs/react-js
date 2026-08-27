@@ -7,7 +7,7 @@ import { ShoppingBag } from "lucide-react";
 const Nav = () => {
   return (
     <div >
-      <nav className="bg-black flex items-center justify-between h-20 px-7 text-white">
+      <nav className=" sticky top-0 z-50 bg-black flex items-center justify-between h-20 px-7 text-white">
       <h1 className="font-bold text-3xl text-red-800">
         S Ì P D È R
         </h1>
