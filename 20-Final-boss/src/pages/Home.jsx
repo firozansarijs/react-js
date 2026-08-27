@@ -20,7 +20,15 @@ const Home = () => {
            className="h-[calc(100vh-74px)] w-full object-cover"
            src={webGif} alt="Spider-Man collection" />
            </div>
-
+        <div className='bg-black h-20  text-gray-400 text-2xl flex overflow-hidden whitespace-nowrap gap-10 items-center marquee'>
+          <span > SPIDER ESSENTIALS   </span>
+          <span>•</span>
+          <span> CONTEMPORARY SILHOUETTES  </span>
+          <span>•</span>
+          <span>TIMELESS ELEGANCE </span>
+          <span>•</span>
+          <span>SUSTAINABLE LUXURY</span>
+        </div>
     </div>
   )
 }
