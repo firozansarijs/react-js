@@ -7,9 +7,11 @@ import { ShoppingBag } from "lucide-react";
 const Nav = () => {
   return (
     <div >
-      <nav className="bg-black flex items-center justify-between whitespace-nowrap h-20 text-white">
-      <h1 className=' px-7 py-5 font-bold text-3xl text-red-800 '>S Ì P D È R</h1>
-      <div   className="text-red-800 gap-10"  >
+      <nav className="bg-black flex items-center justify-between h-20 px-7 text-white">
+      <h1 className="font-bold text-3xl text-red-800">
+        S Ì P D È R
+        </h1>
+      <div  className="flex items-center gap-10 text-red-800 font-bold"  >
       <Link
       className="relative inline-block
                after:content-['']
@@ -24,7 +26,6 @@ const Nav = () => {
              after:duration-300
              text-1xl 
              font-bold
-             mr-10
       "
       to="/"
         >
@@ -45,7 +46,8 @@ const Nav = () => {
              after:duration-300
              text-1xl 
              font-bold
-       mr-10"
+             nav-link
+             "
       to="/trending">Trending</Link>
       <Link
       className="
@@ -62,7 +64,8 @@ const Nav = () => {
              after:duration-300
              text-1xl 
              font-bold
-      mr-10"
+             nav-link
+             "
        to="/collection">Collection</Link>
       <Link
       className="
@@ -79,7 +82,8 @@ const Nav = () => {
              after:duration-300
              text-1xl 
              font-bold
-      mr-10"
+             nav-link
+             "
        to="/about">About</Link>
       <Link 
       className="
@@ -96,19 +100,18 @@ const Nav = () => {
              after:duration-300
              text-1xl 
              font-bold
-      mr-10"
+             nav-link
+             "
       to="/contact">Contact</Link>
-      </div>
-      <div className='ml-80'>
+      </div >
+      <div className="flex items-center gap-8">
         <Search />
-      </div>
-      <div className='ml-10'>
         <User />
-      </div>
-     <div className="cart-icon relative inline-flex ml-10">
+     <div className="relative">
        <ShoppingBag  />
-      <span className="cart-count absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-600 text-xs font-semibold text-white">3</span>
+      <span className="absolute -top-2 -right-2 flex h-5 w-5 items-center justify-center rounded-full bg-red-600 text-xs font-semibold text-white">3</span>
        </div>
+      </div>
       </nav>
     </div>
   )
