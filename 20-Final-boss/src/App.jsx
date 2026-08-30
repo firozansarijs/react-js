@@ -7,6 +7,7 @@ import Collection from './pages/Collection';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
+
 const App = () => {
   return (
     <div className=''>
