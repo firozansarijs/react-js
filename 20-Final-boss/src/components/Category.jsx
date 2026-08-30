@@ -15,6 +15,7 @@ const Category = () => {
           <CategoryBox img = {'https://i.pinimg.com/736x/f4/0f/aa/f40faa39b6f22fbdae0e0602963a2657.jpg'} text = {'HOODIES & Sweater'} amount = {'24 '} />
           <CategoryBox img = {'https://i.pinimg.com/1200x/71/b4/82/71b4828b2e719840c950763625585460.jpg'} text = {'Dresses'} amount = {'42 '} />
           <CategoryBox img = {'https://i.pinimg.com/1200x/68/f4/14/68f414d21abd4507ada9d8999a249f8a.jpg'} text = {'Accessories'} amount = {'68 '} />
+          <CategoryBox img = {'https://i.pinimg.com/736x/f1/9c/2c/f19c2c03d60b9ce9ee01c815e22bc44e.jpg'} text = {'T-sirts'} amount = {'198'} />
        </div>
         </div>
 
