@@ -10,7 +10,7 @@ const Category = () => {
        <h1 className='text-black font-style: italic flex justify-center text-5xl'>Shop By Category</h1>
        <br />
        <p className='text-gray-400 flex justify-center'>Find your perfect style across our thoughtfully curated collections</p>
-       <div className='px-5 py-3 flex gap-15' >
+       <div className='px-5 py-3 grid grid-cols-4 gap-6' >
           <CategoryBox img = {'https://i.pinimg.com/736x/77/0a/34/770a341349bd1fdf9ea3b62261c91288.jpg'} text = {'HOODIES & Sweater'} amount = {'24 '} />
           <CategoryBox img = {'https://i.pinimg.com/736x/f4/0f/aa/f40faa39b6f22fbdae0e0602963a2657.jpg'} text = {'HOODIES & Sweater'} amount = {'24 '} />
           <CategoryBox img = {'https://i.pinimg.com/1200x/71/b4/82/71b4828b2e719840c950763625585460.jpg'} text = {'Dresses'} amount = {'42 '} />
