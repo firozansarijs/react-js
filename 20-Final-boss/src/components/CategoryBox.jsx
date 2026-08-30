@@ -3,28 +3,26 @@ import { MoveUpRight } from 'lucide-react'
 
 const CategoryBox = (props) => {
   return (
-    <div>
-      <div className='h-100 w-80 relative'>
+    <div className='h-110 w-full relative overflow-hidden'>
 
-        <img
-          className='h-110 w-100 object-cover object-center hover:scale-105'
-          src={props.img}
-          alt={props.text}
-        />
+      <img
+        className='h-full w-full object-cover object-center'
+        src={props.img}
+        alt={props.text}
+      />
 
-        <MoveUpRight
-          className='border-2 rounded-full text-white h-10 w-10 absolute right-2 top-2'
-        />
+      <MoveUpRight className='border-2 rounded-full text-white h-10 w-10 absolute right-2 top-2' />
 
-        <h1 className='text-3xl text-white font-bold absolute bottom-8 left-2'>
+      <div className='absolute bottom-5 left-5'>
+        <h1 className='text-3xl text-white font-bold'>
           {props.text}
         </h1>
 
-        <p className='text-gray-300 font-bold absolute bottom-0.5 left-2'>
-          {props.amount} Pieces
+        <p className='text-gray-300 font-bold mt-2'>
+          {props.amount}
         </p>
-
       </div>
+
     </div>
   )
 }
