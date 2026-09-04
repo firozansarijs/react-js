@@ -3,7 +3,7 @@ import Trendingbox from '../components/Trendingbox'
 
 const Trending = () => {
   return (
-    <div className='min-h-100 bg-[#F5F0EB]'>
+    <div className='min-h-100 w-screen bg-[#F5F0EB]'>
          <p className='text-amber-600 flex py-20 justify-center items-center text-xs gap-2'>
           W h a t ' s
           <span>
