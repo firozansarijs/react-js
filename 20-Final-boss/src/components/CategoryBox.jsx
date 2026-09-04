@@ -3,7 +3,7 @@ import { MoveUpRight } from 'lucide-react'
 
 const CategoryBox = (props) => {
   return (
-    <div className='h-110 w-full relative overflow-hidden'>
+    <div className='h-110 w-full relative overflow-hidden hover:scale-99'>
 
       <img
         className='h-full w-full object-cover object-center'
