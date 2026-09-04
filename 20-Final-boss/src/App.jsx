@@ -10,8 +10,9 @@ import Trending from './pages/Trending';
 
 const App = () => {
   return (
-    <div className=''>
+    <div>
       <Nav />
+      <div >
     <section id="home">
     <Home />
   </section>
@@ -31,6 +32,7 @@ const App = () => {
   <section id="contact">
     <Contact />
   </section>
+  </div>
 
     </div>
   )
