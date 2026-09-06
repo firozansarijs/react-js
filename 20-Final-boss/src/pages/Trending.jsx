@@ -13,9 +13,9 @@ const Trending = () => {
             <h1 className='text-black italic flex justify-center text-5xl'>Trending Now</h1>
             <p className='text-gray-400 flex justify-center mt-6 '>The most coveted pieces of the season, handpicked by our style experts</p>
             <div className=' grid grid-cols-3 gap-6'>
-            <Trendingbox  img = "https://i.pinimg.com/736x/12/7b/4b/127b4b72191f2a1a6c785e9d856f876d.jpg" text = "NEW"/>
-            <Trendingbox  img = "https://i.pinimg.com/736x/86/44/b5/8644b5c847d18e7479e542d0b6bf62e9.jpg" text = "LIMTED"/>
-            <Trendingbox  img = "https://i.pinimg.com/736x/5e/04/d3/5e04d38fa01fd8db4bfd694c86eefc64.jpg" text = "BESTSELLER"/>
+            <Trendingbox  img = "https://i.pinimg.com/736x/12/7b/4b/127b4b72191f2a1a6c785e9d856f876d.jpg" text = "NEW" detail = "BODY FIT FULL SELEVES T-SHIRT" price = "198"/>
+            <Trendingbox  img = "https://i.pinimg.com/736x/86/44/b5/8644b5c847d18e7479e542d0b6bf62e9.jpg" text = "LIMTED" detail = "SPIDER HOODIE & PRINTED HEADPHONE" price = "200"/>
+            <Trendingbox  img = "https://i.pinimg.com/736x/5e/04/d3/5e04d38fa01fd8db4bfd694c86eefc64.jpg" text = "BESTSELLER" detail = "SPIDER TOPS & JEWLLERY" price = "300" />
             </div>
     </div>
   )
