@@ -6,7 +6,7 @@ const Category = () => {
     <div className='min-h-screen'>
       <div>
 
-        <p className='text-amber-600 flex py-20 justify-center items-center text-xs'>
+        <p className='text-amber-600 flex py-10 justify-center items-center text-xs'>
           E X P L O R E
         </p>
 

@@ -30,7 +30,7 @@ const Trendingbox = (props) => {
         </div>
         </div>
         <div className='px-5 py-5'>
-        <p className='text-amber-500 text-s'>Spider collection</p>
+        <p className='text-amber-900 text-s'>Spider collection</p>
         <h1 className='text-black font-bold'>{props.detail}</h1>
         <p className='text-gray-400 text-m'>${props.price}</p>
         <div className="flex gap-3 py-5 ">
